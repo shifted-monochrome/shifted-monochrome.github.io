@@ -1,6 +1,7 @@
 /* Paragraph Classes and stuff*/
 .main-header {
     font-size: 18px;
+    padding-left: 0.5%;
 }
 
 .wip-tag {
@@ -18,6 +19,7 @@
     border: 5px solid rgb(95, 95, 95);
     margin: 0px auto;
     padding: 1%;
+    border-radius: 10px;
 }
 
 .box-header {
@@ -27,6 +29,7 @@
     padding: 0.5%;
     margin: 0px auto;
     color: black;
+    border-radius: 10px;
 }
 
 /* Other */
@@ -37,4 +40,20 @@ body {
 p {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: whitesmoke;
+}
+
+a:visited {
+    color: rgb(131, 131, 131);
+}
+
+a:active {
+    color: white;
+}
+
+a:link {
+    color: rgb(173, 173, 173);
+}
+
+a:hover {
+    color:white;
 }
