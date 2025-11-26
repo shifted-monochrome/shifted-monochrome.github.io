@@ -57,3 +57,8 @@ a:link {
 a:hover {
     color:white;
 }
+
+a.header {
+    text-decoration: none;
+    color: whitesmoke;
+}
