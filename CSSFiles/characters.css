@@ -30,26 +30,23 @@
 
 .char-box-content-left {
     text-align: center;
-    border-right: 2px solid rgb(95, 95, 95);
-    border-top: 2px solid rgb(95, 95, 95);
     padding-right: 2%;
-    width: 47.54%;
+    width: 47%;
     float: left;
 }
 
 .char-box-content-right {
     text-align: center;
-    border-top: 2px solid rgb(95, 95, 95);
     padding-left: 2%;
-    width: 48%;
-    float: right
+    width: 47%;
+    float: right;
 }
 
 .char-box-content-center {
     text-align: center;
-    border-top: 2px solid rgb(95, 95, 95);
-    padding-left: 0;
-    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 98%;
     float: left;
 }
 
