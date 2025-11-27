@@ -54,3 +54,20 @@
     padding-left: 1%;
     padding-right: 1%
 }
+
+.quote-box  {
+    width: 33%;
+    border-left: 10px solid rgb(95, 95, 95);
+    font-style: italic;
+    letter-spacing: 1px;
+    padding-left: 0.75%;
+    border-radius: 10px;
+}
+
+.lore-box  {
+    border-left: 10px solid rgb(95, 95, 95);
+    font-style: italic;
+    letter-spacing: 1px;
+    padding-left: 0.75%;
+    border-radius: 10px;
+}
