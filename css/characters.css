@@ -31,15 +31,19 @@
 .char-box-content-left {
     text-align: center;
     padding-right: 2%;
-    width: 47%;
+    padding-left: 2%;
+    width: 45%;
     float: left;
+    overflow: hidden;
 }
 
 .char-box-content-right {
     text-align: center;
     padding-left: 2%;
-    width: 47%;
+    padding-right: 2%;
+    width: 45%;
     float: right;
+    overflow: clip;
 }
 
 .char-box-content-center {
@@ -112,4 +116,11 @@
     width: 210px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: lighter;
 }
