@@ -102,3 +102,14 @@
 .tabcontent {
     display: none;
 }
+
+.gallery_content {
+    width: 98%;
+}
+
+.gallery-image {
+    display: inline-block;
+    width: 210px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

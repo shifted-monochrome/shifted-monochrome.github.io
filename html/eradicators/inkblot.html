@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
-<link rel="stylesheet" href="../../CSSFiles/main.css">
-<link rel="stylesheet" href="../../CSSFiles/characters.css">
+<link rel="stylesheet" href="../../css/main.css">
+<link rel="stylesheet" href="../../css/characters.css">
 
 <head>
     <title>Inkblot || Shifted In Monochrome Wiki</title>
@@ -20,6 +20,12 @@
     <!-- #################################### -->
     
     <div class="content">
+        <div class="warning">
+           <h1>WARNING: UNFINISHED PAGE</h1>
+           <hr width="80%" style="color:whitesmoke;border: 1px solid whitesmoke;">
+           <p style="font-size:14px"><b>Reason</b>: Several images are currently missing from this page due to either not existing yet or merely being forgotten. Placeholder images are in use until then.</p>
+        </div>
+
         <h1 style="font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:40px;padding-left:1%">Inkblot</h1>
 
         <div class="char-box-parent">
@@ -126,6 +132,33 @@
 
             <h2 style="font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:30px;font-weight:lighter">Gallery</h2>
             <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
+            <div class="tab">
+                <button class="gallery_links" onclick="changeGallery(event, 'game_gallery')" id="default_gallery">In-Game</button>
+                <button class="gallery_links" onclick="changeGallery(event, 'render_gallery')">Renders</button>
+                <button class="gallery_links" onclick="changeGallery(event, 'misc_gallery')">Miscellaneous</button>
+            </div>
+            <div id="game_gallery" class="gallery_content">
+                <div class="gallery-image">
+                    <img src="../../images/placeholder_image.png" style="width:200px;padding-bottom:2px;display:inline-block;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184)">Placeholder to check spacing</p>
+                </div>
+            </div>
+            <div id="render_gallery" class="gallery_content">
+                <div class="gallery-image">
+                    <img src="../../images/placeholder_image.png" style="width:200px;padding-bottom:2px;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184)">Placeholder to check spacing</p>
+                </div>
+                <div class="gallery-image">
+                    <img src="../../images/placeholder_image.png" style="width:200px;padding-bottom:2px;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184)">Placeholder to check spacing</p>
+                </div>
+            </div>
+            <div id="misc_gallery" class="gallery_content">
+                <div class="gallery-image">
+                    <img src="../../images/placeholder_image.png" style="width:200px;padding-bottom:2px;display:inline-block;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184);width:200px;">Lorem ipsum dolor sit amet blah blah blah i just need this to be long</p>
+                </div>
+            </div>
         </div>
     </div>
     <br><br><br><br><br>
@@ -150,6 +183,24 @@
         document.getElementById(imageName).style.display = "block";
         evt.currentTarget.className += " active";
     }
+    
+    function changeGallery(evt, galleryName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("gallery_content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("gallery_links");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(galleryName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
 
     document.getElementById("default_image").click();
+    document.getElementById("default_gallery").click();
 </script>

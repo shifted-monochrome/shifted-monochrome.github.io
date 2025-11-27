@@ -40,6 +40,20 @@
     border-radius: 10px;
 }
 
+.warning {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(241, 135, 135);
+    border: 5px dashed rgb(223, 68, 68);
+    border-radius: 10px;
+    margin: auto;
+    padding-right: 2%;
+    padding-left: 2%;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
 /* Other */
 body {
     background-color: rgb(24, 24, 24)
