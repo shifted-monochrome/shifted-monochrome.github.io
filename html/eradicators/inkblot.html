@@ -29,9 +29,17 @@
                     <p>Inkblot</p>
                 </div>
 
-                <div style="text-align:center;">
+                <div class="tab" style="text-align:center">
+                    <button class="tablinks" onclick="changeImage(event, 'standard_form')" id="default_image">Standard Form</button>
+                    <button class="tablinks" onclick="changeImage(event, 'lms_form')">LMS Form</button>
+                </div>
+                <div id="standard_form" class="tabcontent" style="text-align:center;">
+                    <img src="../../images/character-art/ib_sit.gif" style="padding-bottom:2px;float:center;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184)">Standard Form Render</p>
+                </div>
+                <div id="lms_form" class="tabcontent" style="text-align:center;">
                     <img src="../../images/character-art/test_render.png" style="width:50%;padding-bottom:2px;float:center;">
-                    <p style="font-size:12px;color:rgb(184, 184, 184)">Image Subtitle</p>
+                    <p style="font-size:12px;color:rgb(184, 184, 184)">LMS Form Render</p>
                 </div>
 
                 <hr style="color:rgb(76, 76, 76);border: 1px solid rgb(76, 76, 76);margin-bottom:-2%;">
@@ -68,13 +76,11 @@
             <h2 style="font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:30px;font-weight:lighter">Introduction</h2>
             <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
             <p><b>Inkblot</b> is one of the four currently available <b>Eradicators</b> in Shifted in Monochrome, representing Inkblot (the universe). They've had quite the history with <b>Gray</b>, but is merely a myth to most other denizens of their realm. <br> Though they may not be as powerful as in their own realm, their strength and lingering power leaves them a still-formidable foe towards <b>Experiments</b>.</p>
-
-            <p style="font-size:11px;color:darkgray">Gray's Note: Apologies for the potential confusion over Inkblot (the character) and Inkblot (the universe) the character was originally named as such because they're a physical manifestation of the universe so I figured they'd have the same name.</p>
             
             <h2 style="font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:30px;font-weight:lighter">Appearance</h2>
             <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
             <p>Inkblot is a tall, anthropomorphic feline-like creature with jet black fur covering their entire body. They have several mouths in various places on their body, though lacks one on their face. They have two glowing white eyes and similarly glowing white paw beans. While difficult to differentiate from the rest of their body, the fur around their paws and footpaws is raised partially.</p>
-            <p>During "Last Man Standing", they enter their Monarch form, their appearance altering slightly. The raised fur on their paws and footpaws become a glowing white color, while their paw beans turn jet black. Additionally four disembodied paws float behind them, also glowing white with black beans.</p>
+            <p>During "Last Man Standing", they enter their Monarch form, their appearance altering slightly. The raised fur on their paws and footpaws become a glowing white color, while their paw beans turn jet black. Additionally four disembodied paws float behind them, also glowing white with black beans. On their back is a glowing mark shaped like the Greek letter "Psi (Ψ)".</p>
 
             <h2 style="font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:30px;font-weight:lighter">Personality</h2>
             <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
@@ -94,16 +100,56 @@
             <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
             <h2 style="font-family:Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:25px;font-weight:lighter">Canon Lore</h2>
             <div class="lore-box">
-                <p>"mrrp mrrp meow i havent written any of this stuff yet :3c"</p>
-                <p>"might do it like that one creation myth story i had to do back in like 9th or 10th grade</p>
+                <p>"Back in the beginning, it was just a sea of thick darkness—not too dissimilar to the Abyss you've no doubt heard of. Two beings, Terra and Inkblot, floated in the center of it. The two of them were bored and tired of the complete lack of anything, and conversed about giving meaning to it. The two of them put their powers together and created two realms named after them."</p>
+                <p>Having grown quite attached to their realm, Inkblot chose to be its primary guardian rather than create thralls to uphold the world's peace like Terra did. They would watch over it and take care of it, removing any potential threats to its harmony. Some people even claim to have seen a dark figure with piercing eyes watching them from the shadows, no doubt Inkblot observing their world.</p>
+                <p>But of course, those're all just stories passed down through the generations. It's nice to have some higher being to believe in, but I doubt they're actually real."</p>
+                <p style="font-weight:lighter;">— An unknown writer.</p>
             </div>
             <h2 style="font-family:Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:25px;font-weight:lighter">Shifted in Monochrome Lore</h2>
             <div class="lore-box">
                 <p>"The world was quiet, just as it was most other days. Nothing notable was happening to cause it concern, yet it was watching everything regardless. Suddenly, it felt a disturbance. Something new. It manifested a physical form near the disturbance to observe it. It looked like an odd ring of pure white flame, similar yet dissimilar to the portals connecting the world and Terra. As the world observed the ring, it begin to pull, rising in intensity until the world couldn't fight against it anymore.</p>
                 <p>They awoke in a world unlike their own. A quiet voice gnawed in the back of their mind, urging for them to eradicate all of the experiments. Maybe then they'd be able to return to their own realm."</p>
             </div>
+
+            <h2 style="font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:30px;font-weight:lighter">Trivia</h2>
+            <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
+            <p style="font-size:14px;color:darkgray">Note: Inkblot (the character) will be referred to as Inkblot-A to avoid confusion with Inkblot (the universe). The universe will just be referred to as Inkblot.</p>
+            <ul>
+                <li>During the very early concepting phase for Shifted in Monochrome (prior to deciding to make it an actual game) one of Gray's EXEs, Beast, was originally planned to represent Inkblot as a killer.</li>
+                <li>Back before Gray had played Outcome Memories, they assumed Shifted in Monochrome would be more similar to Dead by Daylight, leading to them making 3 separate "Terror Radii" tracks.</li>
+                <ul>
+                    <li>In a similar music-related mishap, Inkblot-A's "Last Life Chase" initially was meant to be an LMS theme before Gray was informed that LMS themes were based on the Experiment and not the Eradicator.</li>
+                </ul>
+                <li>Though their height was normalized for gameplay purposes, Inkblot-A is 9'3" (about 282cm)</li>
+                <li>Inkblot-A has the Greek letter psi as a symbol on their back due to it being used as a general symbol to denote Inkblot-related content.</li>
+            </ul>
+
+            <h2 style="font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:30px;font-weight:lighter">Gallery</h2>
+            <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
         </div>
     </div>
     <br><br><br><br><br>
     <hr style="border:none;">
 </body>
+
+<!-- tabber stuff :[ -->
+<script>
+    function changeImage(evt, imageName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(imageName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    document.getElementById("default_image").click();
+</script>

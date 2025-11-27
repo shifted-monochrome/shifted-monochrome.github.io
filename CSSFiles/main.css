@@ -50,6 +50,12 @@ p {
     color: whitesmoke;
 }
 
+ul {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    line-height: 26px;
+}
+
 a:visited {
     color: rgb(131, 131, 131);
 }

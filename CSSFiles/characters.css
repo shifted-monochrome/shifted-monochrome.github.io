@@ -71,3 +71,34 @@
     padding-left: 0.75%;
     border-radius: 10px;
 }
+
+.tab {
+    padding-top: 5px;
+    border-bottom: 2px solid rgb(155,155,155);
+    margin-bottom: 10px;
+}
+
+.tab button{
+    overflow: hidden;
+    border: 2px solid rgb(85, 85, 85);
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(85, 85, 85);
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.tab button:hover {
+    border: 2px solid rgb(115, 115, 115);
+    background-color: rgb(115, 115, 115);
+    transition: 0.1s;
+}
+
+.tab button.active {
+    border: 2px solid rgb(155,155,155);
+    background-color: rgb(155,155,155);
+}
+
+.tabcontent {
+    display: none;
+}
