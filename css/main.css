@@ -12,14 +12,6 @@
     margin-top: 75px
 }
 
-.wip-tag {
-    text-align: center;
-    font-size: 36px;
-    font-style: oblique;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 /* Div Classes */
 .main-boxes {
     width: 50%;
@@ -49,6 +41,7 @@
     margin: auto;
     padding-right: 2%;
     padding-left: 2%;
+    margin-bottom:20px;
 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
