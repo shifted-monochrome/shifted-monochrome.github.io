@@ -5,7 +5,8 @@
     padding-right: 0.5%;
     position: fixed;
     margin-top: -75px;
-    background-color: rgb(24, 24, 24)
+    background-color: rgb(24, 24, 24);
+    z-index: 50;
 }
 
 .content {
