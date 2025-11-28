@@ -21,6 +21,7 @@
     margin: 0px auto;
     padding: 1%;
     border-radius: 10px;
+    contain: layout;
 }
 
 .box-header {
@@ -46,6 +47,12 @@
 
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
+}
+
+.image-thingy {
+    padding-left:2%;
+    padding-right:2%;
+    display:inline-block;
 }
 
 /* Other */
