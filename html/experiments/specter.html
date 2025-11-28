@@ -273,7 +273,7 @@
 
     function divWidthFix() {
         const reference_scale = document.getElementById("reference_scale");
-        const reference_width = parseFloat(reference_scale.offsetWidth) - 32;
+        const reference_width = parseFloat(reference_scale.offsetWidth);
 
         const target_divs = document.querySelectorAll(".ability-container");
 
@@ -284,6 +284,4 @@
 
     window.addEventListener('resize', divWidthFix);
     document.addEventListener('DOMContentLoaded', divWidthFix);
-    window.onload(divWidthFix);
-    window.requestAnimationFrame(divWidthFix);
 </script>
