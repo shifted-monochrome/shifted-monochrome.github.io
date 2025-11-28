@@ -268,18 +268,4 @@
     document.getElementById("default_image").click();
     document.getElementById("default_gallery").click();
     document.getElementById("default_ability").click();
-
-    function divWidthFix() {
-        const reference_scale = document.getElementById("reference_scale");
-        const reference_width = parseFloat(reference_scale.offsetWidth);
-
-        const target_divs = document.querySelectorAll(".ability-container");
-
-        target_divs.forEach(div => {
-            div.style.width = `${reference_width}px`;
-        })
-    }
-
-    window.addEventListener('resize', divWidthFix);
-    document.addEventListener('DOMContentLoaded', divWidthFix);
 </script>
