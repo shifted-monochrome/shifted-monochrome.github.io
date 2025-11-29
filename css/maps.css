@@ -1,0 +1,30 @@
+.map-image {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    border: 5px solid rgb(95, 95, 95);
+    border-radius: 10px;
+}
+
+.mild-seperation{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    border-color: rgb(76, 76, 76);
+    justify-content: center;
+}
+
+.main-content {
+    padding-left: 1%;
+    padding-right: 1%
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: lighter;
+}
