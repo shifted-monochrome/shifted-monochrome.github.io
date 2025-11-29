@@ -20,20 +20,128 @@
         <div class="warning">
            <h1>WARNING: UNFINISHED PAGE</h1>
            <hr width="80%" style="color:whitesmoke;border: 1px solid whitesmoke;">
-           <p style="font-size:14px"><b>Reason</b>: Several images are currently missing from this page due to either not existing yet or merely being forgotten. Placeholder images are in use until then.</p>
+           <p style="font-size:14px"><b>Reason</b>: lotta placeholder stuff.</p>
         </div>
 
         <h1 style="font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;color:whitesmoke;font-size:40px;padding-left:1%;text-align:center;">
             Moonstone Point
         </h1>
-        <hr class="mild-seperation">
+        <hr class="mild-seperation" style="margin-top:-20px;">
 
         <div class="map-image">
             <img src="../../images/map-art/placeholder_map.png" style="width:100%;border-radius:10px;">
         </div>
 
         <div class="main-content">
-            <h2>Appearance</h2>
+            <div class="map-info-box-center">
+                <h2>Introduction</h2>
+                <hr class="less-mild-seperation">
+                <p>Home to Prism, one of Inkblot's two major factions, <b>Moonstone Point</b> is a large city with a similarly large wall surrounding it. The city itself is divided into five districts, however only the city's Topaz district is accessible in Shifted in Monochrome.</p>
+            </div>
+            <hr class="mild-seperation">
+            <div class="map-info-box">
+                <div class="map-info-box-left" style="padding-bottom:0px;">
+                    <h2>Appearance</h2>
+                    <hr class="milder-separation-l">
+                    <p>decent verticality, varied building heights, balconies, rooftop terraces, dark fog, desolate moon</p>
+                    <p>ill write this out later</p>
+                </div>
+                <div class="vert-divider" style="height:82%;"></div>
+                <div class="map-info-box-right">
+                    <h2>Mechanics</h2>
+                    <hr class="milder-separation-r">
+                    <p>Once the timer reaches its final 80 seconds, dark inky tendrils and puddles seep out from the city's shadows, slowing <a href="../misc_pages/eradicators.html"><b>Experiments</b></a> and <a href="../misc_pages/experiments.html"><b>Experiments</b></a> alike when they come in contact with the ink. Inkblot however receives a slight speed bonus upon contacting the ink.</p>
+                    <p>The thick tendrils block off certain paths, but open up new ones for those willing to wade through the ink.</p>
+                </div>
+            </div>
+            <hr class="mild-seperation">
+            <div class="map-info-box">
+                <div class="map-info-box-left" style="padding-bottom:0px;">
+                    <h2>Audio</h2>
+                    <hr class="milder-separation-l">
+                    <p>
+                        <audio controls>
+                            <source src="../../audio/placeholder-audio.mp3" type="audio/mpeg">
+                            Your browser doesn't support the audio :[
+                        </audio>
+                        <p class="subtitle">Selection Theme</p>
+                    </p>
+                    <p>
+                        <audio controls>
+                            <source src="../../audio/mus_moonstone-ambient.mp3" type="audio/mpeg">
+                            Your browser doesn't support the audio :[
+                        </audio>
+                        <p class="subtitle">Ambient Theme</p>
+                    </p>
+                    <p>
+                        <audio controls>
+                            <source src="../../audio/placeholder-audio.mp3" type="audio/mpeg">
+                            Your browser doesn't support the audio :[
+                        </audio>
+                        <p class="subtitle">Final 80 Theme</p>
+                    </p>
+                </div>
+                <div class="vert-divider" style="height:90%;"></div>
+                <div class="map-info-box-right">
+                    <h2>Trivia</h2>
+                    <hr class="milder-separation-r">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-content" style="margin-top:20px;">
+            <h2>Gallery</h2>
+            <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
+            <div class="tab">
+                <button class="gallery_links" onclick="changeGallery(event, 'game_gallery')" id="default_gallery">In-Game</button>
+                <button class="gallery_links" onclick="changeGallery(event, 'render_gallery')">Renders</button>
+                <button class="gallery_links" onclick="changeGallery(event, 'misc_gallery')">Miscellaneous</button>
+            </div>
+            <div id="game_gallery" class="gallery_content">
+                <div class="gallery-image">
+                    <img src="../../images/placeholder_image.png" style="width:200px;padding-bottom:2px;display:inline-block;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184)">Placeholder to check spacing</p>
+                </div>
+            </div>
+            <div id="render_gallery" class="gallery_content">
+                <div class="gallery-image">
+                    <img src="../../images/placeholder_image.png" style="width:200px;padding-bottom:2px;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184)">Placeholder to check spacing</p>
+                </div>
+                <div class="gallery-image">
+                    <img src="../../images/placeholder_image.png" style="width:200px;padding-bottom:2px;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184)">Placeholder to check spacing</p>
+                </div>
+            </div>
+            <div id="misc_gallery" class="gallery_content">
+                <div class="gallery-image">
+                    <img src="../../images/placeholder_image.png" style="width:200px;padding-bottom:2px;display:inline-block;">
+                    <p style="font-size:12px;color:rgb(184, 184, 184);width:200px;">Lorem ipsum dolor sit amet blah blah blah i just need this to be long</p>
+                </div>
+            </div>
         </div>
     </div>
+    <br><br><br><br><br>
+    <hr style="border:none;">
 </body>
+
+<script>
+    function changeGallery(evt, galleryName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("gallery_content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("gallery_links");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(galleryName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    document.getElementById("default_gallery").click();
+</script>
