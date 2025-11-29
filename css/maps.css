@@ -92,10 +92,10 @@ h2 {
     border-left: 1px solid rgb(95, 95, 95);
     position: absolute;
     left: 50%;
+    right:50%;
+    height:100%;
     border-radius: 10px;
-
-    margin-bottom: 1.5%;
-    margin-top: 1.5%;
+    margin-top:1%;
 }
 
 .subtitle {
