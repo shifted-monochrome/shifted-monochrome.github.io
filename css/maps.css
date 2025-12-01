@@ -33,6 +33,7 @@
     margin-top: 20px;
     border-color: rgb(76, 76, 76);
     justify-content: center;
+    border: 0;
 }
 
 .less-mild-seperation{
@@ -89,7 +90,7 @@ h2 {
 }
 
 .vert-divider {
-    border-left: 1px solid rgb(95, 95, 95);
+    border-left: 0px solid rgb(95, 95, 95);
     position: absolute;
     left: 50%;
     right:50%;
