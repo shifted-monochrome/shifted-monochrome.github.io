@@ -19,7 +19,8 @@
     overflow: auto;
     padding-left: 1%;
     padding-right: 1%;
-    transition: transform 0.15s ease-in-out;
+    opacity: 80%;
+    transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, opacity 0.15s ease-in-out;
     vertical-align: top;
 }
 
@@ -32,7 +33,9 @@
 }
 
 .dev-box:hover {
-    transform: scale(1.025);
+    transform: scale(1.025) translateY(-15px);
+    background-color: rgb(39, 39, 39);
+    opacity: 100%;
 }
 
 .dev-box h1 {
