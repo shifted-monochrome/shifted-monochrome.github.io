@@ -38,6 +38,8 @@
 .dev-box h1 {
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: whitesmoke;
+    font-size: 1.75vw;
+    margin-bottom: -1.25vw;
 }
 
 .dev-box h2 {
@@ -45,7 +47,6 @@
     color: whitesmoke;
     font-weight: lighter;
     font-size: 20px;
-    margin-top: -20px;
 }
 
 .dev-box h3 {
