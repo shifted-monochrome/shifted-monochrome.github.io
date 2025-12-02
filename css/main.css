@@ -55,6 +55,14 @@
     display:inline-block;
 }
 
+.image-thingy img {
+    transition: transform 0.15s ease-in-out;
+}
+
+.image-thingy img:hover {
+    transform: scale(1.025);
+}
+
 /* Other */
 body {
     background-color: rgb(24, 24, 24)
