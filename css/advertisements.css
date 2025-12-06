@@ -3,3 +3,22 @@
     margin-left: 1%;
     margin-top: 9%;
 }
+
+.cory-ad {
+    position: absolute;
+    top: 1.5%;
+    right: 2%;
+    float: right;
+    overflow: auto;
+    width: 350px;
+    background-color: rgb(24, 24, 24);
+
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.cory-ad img {
+    min-width: 100%;
+    max-width: 100%;
+    float: right;
+}
