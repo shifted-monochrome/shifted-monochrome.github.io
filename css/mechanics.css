@@ -1,17 +1,63 @@
 .mechanic-box-left {
-    width: 47%;
+    width: 45%;
     border: 5px solid rgb(95, 95, 95);
     padding: 1%;
+    margin-bottom: 1%;
     border-radius: 10px;
     contain: layout;
     float: left;
 }
 
 .mechanic-box-right {
-    width: 47%;
+    width: 46%;
     border: 5px solid rgb(95, 95, 95);
     padding: 1%;
     border-radius: 10px;
     contain: layout;
     float: right;
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: rgb(184, 184, 184);
+    margin-top: -5px;
+}
+
+ul li p {
+    font-size: 12px;
+    color: rgb(184, 184, 184);
+    margin-top: -2.5px;
+    margin-bottom: -5px;
+    padding-bottom: 10px;
+    line-height: 16px;
+}
+
+.rating-left {
+    width: 47%;
+    contain: layout;
+    float: left;
+}
+
+.rating-right {
+    width: 47%;
+    contain: layout;
+    float: right;
+}
+
+.mechanic-box-left hr {
+    margin-left: 0;
+    margin-top: -0.5%;
+    border-color: rgb(76, 76, 76);
+}
+
+.mechanic-box-right hr {
+    margin-left: 0;
+    margin-top: -0.5%;
+    border-color: rgb(76, 76, 76);
 }

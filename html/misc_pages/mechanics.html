@@ -18,6 +18,12 @@
     </div>
     <!-- #################################### -->
     <div class="content">
+        <div class="warning">
+           <h1>WARNING: UNFINISHED PAGE</h1>
+           <hr width="80%" style="color:whitesmoke;border: 1px solid whitesmoke;">
+           <p style="font-size:14px"><b>Reason</b>: Missing information.</p>
+        </div>
+
         <div class="mechanic-box-left">
             <div class="box-header"><p>Status Effects</p></div>
             <p><b>Burn</b>: Burn, while inflicted, will slow down Experiments and Eradicators. It also does damage over time to Experiments.</p>
@@ -27,6 +33,40 @@
         </div>
         <div class="mechanic-box-right">
             <div class="box-header"><p>Ratings</p></div>
+            <p>Upon finishing a round, each player is given a rank and a score dependent on how many Void Fragments they obtained during the round, and is further influenced by modifiers reflecting the player's actions and the outcome, such as "Betrayal". While the rank and score are directly correlated to the amount of Void Fragments gained, the modifiers do not impact how many you obtain at the end of the round.</p>
+            <h2>Rating Modifiers</h2>
+            <p class="subtitle" style="margin-top:-15px;">Ordered by multiplier amount.</p>
+            <div class="rating-left">
+                <ul>
+                    <li><b>Last Creature Standing</b> (2x) <br> <p>Obtained by escaping during "Last Creature Standing".</p></li>
+                    <li><b>Escaped</b> (1.75x) <br> <p>Obtained by escaping.</p></li>
+                    <li><b>Guardian Angel</b> (1.15x) <br> <p>Obtained by reviving 3 or more Experiments.</p></li>
+                    <li><b>Stealthy</b> (1.05x) <br> <p>Obtained by having a danger time lower than 15</p></li>
+                    <li><b>Last Life</b> (0.9x) <br> <p>Obtained by escaping while on your last life.</p></li>
+                    <li><b>Forgotten</b> (0.8x) <br> <p>Obtained by failing to escape in time.</p></li>
+                    <li><b>Slain</b> (0.75x) <br> <p>Obtained from dying during a round.</p></li>
+                    <li><b>Betrayal</b> (0.5x) <br> <p>Obtained by damaging your teammates for more than 30 health during a round.</p></li>
+                </ul>
+            </div>
+            <div class="rating-right">
+                <ul>
+                    <li><b>Wipeout</b> (2x) <br> <p>Obtained by winning after killing at least one Experiment.</p></li>
+                    <li><b>Workplace Accident</b> (1.25x) <br> <p>Obtained by winning without killing any Experiments.</p></li>
+                    <li><b>Disappointment</b> (0.75x) <br> <p> Obtained by failing to kill any Experiments.</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mechanic-box-left">
+            <div class="box-header"><p>Gameplay</p></div>
+            <h2>Last Creature Standing</h2>
+            <p>Upon reaching a point where all other Experiments have been killed, the final Experiment and the Eradicator enter "Last Creature Standing". The final Experiment will have 30 HP added to their maximum health, and will be fully healed. The round timer will be set to the same length as the Experiment's Last Creature Standing theme regardless of how much time was left on it. Provided the exit hasn't yet spawned, it will spawn once 30 seconds are left on the round timer.</p>
+            <hr>
+            <h2>Final 80</h2>
+            <p>Once 80 seconds (1 minute and 20 seconds) are left on the round timer, the round enters "Final 80". The atmosphere becomes more intense, the exit (or exits) becomes active, and depending on the map unique changes may be applied.</p>
+            <p>Please check the <a href="maps.html">Individual Map Pages</a> for more information on those changes.</p>
+            <hr>
+            <h2>Parry</h2>
+            <p>As the Eradicator, timing your attack so that it lands right before an Experiment's attack is going to hit you negates the Experiment's stun. If the attack is a projectile, the projectile is destroyed. If the attack is a melee attack, you and the Experiment are pushed an equal distance away from each other, with the distance being equal to the formula <code>0.5(x + y)</code> with <code>x</code> being your attack's knockback distance and <code>y</code> being the Experiment's attack's knockback distance.</p>
         </div>
     </div>
 </body>
