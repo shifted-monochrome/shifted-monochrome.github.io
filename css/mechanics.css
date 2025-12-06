@@ -1,0 +1,17 @@
+.mechanic-box-left {
+    width: 45%;
+    border: 5px solid rgb(95, 95, 95);
+    padding: 1%;
+    border-radius: 10px;
+    contain: layout;
+    float: left;
+}
+
+.mechanic-box-right {
+    width: 45%;
+    border: 5px solid rgb(95, 95, 95);
+    padding: 1%;
+    border-radius: 10px;
+    contain: layout;
+    float: right;
+}
