@@ -26,7 +26,7 @@
         </div>
 
         <div class="main-content">
-            <div class="dev-box">
+            <div class="dev-box" id="redux_clicky">
                 <img src="../../images/dev-art/ReduxIcon.png">
                 <h1>RainbowRedux</h1>
                 <h2>Owner</h2>
@@ -64,14 +64,23 @@
 </body>
 
 <audio id="gray_sound" src="../../audio/dev-noises/gray_noise.mp3" preload="auto"></audio>
+<audio id="redux_sound" src="../../audio/dev-noises/redux_noise.wav" preload="auto"></audio>
 
 <script>
     const grayDiv = document.getElementById("gray_clicky");
     const graySound = document.getElementById("gray_sound");
+    const reduxDiv = document.getElementById("redux_clicky");
+    const reduxSound = document.getElementById("redux_sound");
 
     grayDiv.addEventListener("click", function() {
         graySound.currentTime = 0.15;
         graySound.volume = 0.75;
         graySound.play();
+    })
+
+    reduxDiv.addEventListener("click", function() {
+        reduxSound.currentTime = 0;
+        reduxSound.volume = 0.75;
+        reduxSound.play();
     })
 </script>
