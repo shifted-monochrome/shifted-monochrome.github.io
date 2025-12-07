@@ -21,53 +21,77 @@
         <div class="warning">
            <h1>WARNING: UNFINISHED PAGE</h1>
            <hr width="80%" style="color:whitesmoke;border: 1px solid whitesmoke;">
-           <p style="font-size:14px"><b>Reason</b>: Missing information.</p>
+           <p style="font-size:14px"><b>Reason</b>: Missing information and pictures.</p>
         </div>
 
-        <div class="mechanic-box-left">
-            <div class="box-header"><p>Status Effects</p></div>
-            <p><b>Burn</b>: Burn, while inflicted, will slow down Experiments and Eradicators. It also does damage over time to Experiments.</p>
-            <p><b>Frostbite</b>: Frostbite, while inflicted, has a chance to stun an Eradicator up to 3 times. In addition, Experiments and Eradicators inflicted with Frostbite will be slowed down slightly more than Burn does.</p>
-            <p><b>Waterlogged</b>: When interacting with a waist-deep water source, or any water source deeper than that, Waterlogged will be inflicted. While inflicted with Waterlogged, movement will be slowed slightly. Waterlogged will automatically wear off upon exiting the water source, with the exception of Metal Dankles and Camilla who will retain the status for a few seconds before drying off.</p>
-            <p><b>Infatuated</b>: Infatuated stops the player in place in a manner similar to a stun. The effect lasts for a few seconds before the Experiment or Eradicator recomposes themselves.</p>
-        </div>
-        <div class="mechanic-box-right">
-            <div class="box-header"><p>Ratings</p></div>
-            <p>Upon finishing a round, each player is given a rank and a score dependent on how many Void Fragments they obtained during the round, and is further influenced by modifiers reflecting the player's actions and the outcome, such as "Betrayal". While the rank and score are directly correlated to the amount of Void Fragments gained, the modifiers do not impact how many you obtain at the end of the round.</p>
-            <h2>Rating Modifiers</h2>
-            <p class="subtitle" style="margin-top:-15px;">Ordered by multiplier amount.</p>
-            <div class="rating-left">
-                <ul>
-                    <li><b>Last Creature Standing</b> (2x) <br> <p>Obtained by escaping during "Last Creature Standing".</p></li>
-                    <li><b>Escaped</b> (1.75x) <br> <p>Obtained by escaping.</p></li>
-                    <li><b>Guardian Angel</b> (1.15x) <br> <p>Obtained by reviving 3 or more Experiments.</p></li>
-                    <li><b>Stealthy</b> (1.05x) <br> <p>Obtained by having a danger time lower than 15</p></li>
-                    <li><b>Last Life</b> (0.9x) <br> <p>Obtained by escaping while on your last life.</p></li>
-                    <li><b>Forgotten</b> (0.8x) <br> <p>Obtained by failing to escape in time.</p></li>
-                    <li><b>Slain</b> (0.75x) <br> <p>Obtained from dying during a round.</p></li>
-                    <li><b>Betrayal</b> (0.5x) <br> <p>Obtained by damaging your teammates for more than 30 health during a round.</p></li>
-                </ul>
-            </div>
-            <div class="rating-right">
-                <ul>
-                    <li><b>Wipeout</b> (2x) <br> <p>Obtained by winning after killing at least one Experiment.</p></li>
-                    <li><b>Bloodthirsty</b> (1.5x) <br> <p>Obtained by dealing at least 500 damage in a round.</p></li>
-                    <li><b>Workplace Accident</b> (1.25x) <br> <p>Obtained by winning without killing any Experiments.</p></li>
-                    <li><b>Disappointment</b> (0.75x) <br> <p> Obtained by failing to kill any Experiments.</p></li>
-                </ul>
+        <div class="container-left">
+            <div class="mechanic-box-left">
+                <div class="box-header"><p>Gameplay Phases</p></div>
+                <h2>Character Selection</h2>
+                <p>When a round starts, players will be shown the Character Selection screen. The screen is divided into two parts, with character selection on the right third and character viewing on the left third. At the top of the viewing area is the name of the currently selected map.</p>
+                <p>The right side consists of 12 boxes split into 4 groups of 3 if the player has been assigned to be an Experiment, or 2 rows of 2 if they've been assigned to be an Eradicator. Clicking on a character that nobody else has selected will select that character. The selected character will have an outline around their box, while characters others have selected will have their boxes crossed out with the player's display name underneath them. At the bottom of the character selection is the currently selected Experiment's name.</p>
+                <p>The left side has a segment of the map in the background, with Experiments standing in a row in the order of when they were selected. At the bottom of the viewing area is the currently selected Eradicator, their name, and the display name of the player who has been chosen to be the Eradicator.</p>
+                <img src="../../images/mechanics/concept_charsel.png">
+                <p class="subtitle">A screenshot of the Character Selection Screen.</p>
+                <hr>
+                <h2>Final 80</h2>
+                <p>Once 80 seconds (1 minute and 20 seconds) are left on the round timer, the round enters "Final 80". The atmosphere becomes more intense, the exit (or exits) becomes active, and depending on the map unique changes may be applied.</p>
+                <p>Please check the <a href="maps.html">individual map pages</a> for more information on changes during Final 80, as in-depth information regarding mechanics and visual changes differ from map to map.</p>
+                <img src="../../images/map-art/placeholder_map.png">
+                <p class="subtitle">A screenshot of <code>[MAP]</code>'s Final 80.</p>
+                <hr>
+                <h2>Results Screen</h2>
+                <p>Upon concluding a round, players will be shown the Results Screen. The screen displays information such as how many stuns the player had, their danger time (how many seconds they spent in a chase), how many rings were earned that round, any multipliers the player obtained, their total score, and their rank.</p>
+                <p>The screen also displays brief information about other Experiments (consisting of their Experiment icon, display name, stuns, danger time, and final rank) as well as information about the Eradicators (consisting of their Eradicator icon, display name, kills, downs, overall damage, and final rank).</p>
+                <hr>
+                <h2>Last Creature Standing</h2>
+                <p>Upon reaching a point where all other Experiments have been killed, the final Experiment and the Eradicator enter "Last Creature Standing". The final Experiment will have 30 HP added to their maximum health, and will be fully healed. The round timer will be set to the same length as the Experiment's Last Creature Standing theme regardless of how much time was left on it. Provided the exit hasn't yet spawned, it will spawn once 30 seconds are left on the round timer.</p>
+                <p>During Last Creature Standing, certain Eradicators and Experiments will undergo changes. These changes can involve abilities, visuals, or both. These changes are documented in more detail on each character's page.</p>
+                <img src="../../images/map-art/placeholder_map.png">
+                <p class="subtitle">A screenshot of Inkblot's LCS form next to Camilla's LCS form.</p>
             </div>
         </div>
-        <div class="mechanic-box-left">
-            <div class="box-header"><p>Gameplay</p></div>
-            <h2>Last Creature Standing</h2>
-            <p>Upon reaching a point where all other Experiments have been killed, the final Experiment and the Eradicator enter "Last Creature Standing". The final Experiment will have 30 HP added to their maximum health, and will be fully healed. The round timer will be set to the same length as the Experiment's Last Creature Standing theme regardless of how much time was left on it. Provided the exit hasn't yet spawned, it will spawn once 30 seconds are left on the round timer.</p>
-            <hr>
-            <h2>Final 80</h2>
-            <p>Once 80 seconds (1 minute and 20 seconds) are left on the round timer, the round enters "Final 80". The atmosphere becomes more intense, the exit (or exits) becomes active, and depending on the map unique changes may be applied.</p>
-            <p>Please check the <a href="maps.html">Individual Map Pages</a> for more information on those changes.</p>
-            <hr>
-            <h2>Parry</h2>
-            <p>As the Eradicator, timing your attack so that it lands right before an Experiment's attack is going to hit you negates the Experiment's stun. If the attack is a projectile, the projectile is destroyed. If the attack is a melee attack, you and the Experiment are pushed an equal distance away from each other, with the distance being equal to the formula <code>0.5(x + y)</code> with <code>x</code> being your attack's knockback distance and <code>y</code> being the Experiment's attack's knockback distance.</p>
+        <div class="container-right">
+            <div class="mechanic-box-right">
+                <div class="box-header"><p>Miscellaneous Mechanics</p></div>
+                <h2>Parry</h2>
+                <p>As the Eradicator, timing your attack so that it lands right before an Experiment's attack is going to hit you negates the Experiment's stun. If the attack is a projectile, the projectile is destroyed. If the attack is a melee attack, you and the Experiment are pushed an equal distance away from each other, with the distance being equal to the formula <code>0.5(x + y)</code> with <code>x</code> being your attack's knockback distance and <code>y</code> being the Experiment's attack's knockback distance.</p>
+                <hr>
+                <h2>Status Effects</h2>
+                <p><b>Burn</b>: Burn, while inflicted, will slow down Experiments and Eradicators. It also does damage over time to Experiments.</p>
+                <p><b>Frostbite</b>: Frostbite, while inflicted, has a chance to stun an Eradicator up to 3 times. In addition, Experiments and Eradicators inflicted with Frostbite will be slowed down slightly more than Burn does.</p>
+                <p><b>Waterlogged</b>: When interacting with a waist-deep water source, or any water source deeper than that, Waterlogged will be inflicted. While inflicted with Waterlogged, movement will be slowed slightly. Waterlogged will automatically wear off upon exiting the water source, with the exception of Metal Dankles and Camilla who will retain the status for a few seconds before drying off.</p>
+                <p><b>Infatuated</b>: Infatuated stops the player in place in a manner similar to a stun. The effect lasts for a few seconds before the Experiment or Eradicator recomposes themselves.</p>
+            </div>
+            <div class="mechanic-box-right">
+                <div class="box-header"><p>Ratings</p></div>
+                <p>Upon finishing a round, each player is given a rank and a score dependent on how many Void Fragments they obtained during the round, and is further influenced by modifiers reflecting the player's actions and the outcome, such as "Escaped" and "Betrayal". While the rank and score are directly correlated to the amount of Void Fragments gained, the modifiers do not impact how many you obtain at the end of the round.</p>
+                <h2>Rating Modifiers</h2>
+                <p class="subtitle" style="margin-top:-15px;">Ordered by multiplier amount.</p>
+                <div class="rating-left">
+                    <ul>
+                        <li><b>Last Creature Standing</b> (2x) <br> <p>Obtained by escaping during "Last Creature Standing".</p></li>
+                        <li><b>Escaped</b> (1.75x) <br> <p>Obtained by escaping.</p></li>
+                        <li><b>Protector</b> (1.25x) <br> <p>Obtained by landing 5 or more stuns during a round.</p></li>
+                        <li><b>Guardian Angel</b> (1.25x) <br> <p>Obtained by reviving 3 or more Experiments.</p></li>
+                        <li><b>Stealthy</b> (1.05x) <br> <p>Obtained by having a danger time lower than 15</p></li>
+                        <li><b>Last Life</b> (0.9x) <br> <p>Obtained by escaping while on your last life.</p></li>
+                        <li><b>Forgotten</b> (0.8x) <br> <p>Obtained by failing to escape in time.</p></li>
+                        <li><b>Slain</b> (0.75x) <br> <p>Obtained from dying during a round.</p></li>
+                        <li><b>Betrayal</b> (0.5x) <br> <p>Obtained by damaging your teammates for more than 30 health during a round.</p></li>
+                    </ul>
+                </div>
+                <div class="rating-right">
+                    <ul>
+                        <li><b>Wipeout</b> (2x) <br> <p>Obtained by winning after killing at least one Experiment.</p></li>
+                        <li><b>Bloodthirsty</b> (1.5x) <br> <p>Obtained by dealing at least 500 damage in a round.</p></li>
+                        <li><b>Workplace Accident</b> (1.25x) <br> <p>Obtained by winning without killing any Experiments.</p></li>
+                        <li><b>Disappointment</b> (0.75x) <br> <p> Obtained by failing to kill any Experiments.</p></li>
+                    </ul>
+                </div>
+                <img src="../../images/map-art/placeholder_map.png">
+                <p class="subtitle">A screenshot of Inkblot's LCS form next to Camilla's LCS form.</p>
+            </div>
         </div>
     </div>
 </body>

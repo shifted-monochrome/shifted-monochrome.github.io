@@ -1,20 +1,23 @@
 .mechanic-box-left {
-    width: 45%;
+    width: 100%;
     border: 5px solid rgb(95, 95, 95);
     padding: 1%;
     margin-bottom: 1%;
     border-radius: 10px;
     contain: layout;
     float: left;
+    overflow: hidden;
 }
 
 .mechanic-box-right {
-    width: 46%;
+    width: 100%;
     border: 5px solid rgb(95, 95, 95);
     padding: 1%;
+    margin-bottom: 1%;
     border-radius: 10px;
     contain: layout;
     float: right;
+    overflow: hidden;
 }
 
 h2 {
@@ -60,4 +63,42 @@ ul li p {
     margin-left: 0;
     margin-top: -0.5%;
     border-color: rgb(76, 76, 76);
+}
+
+.container-left {
+    position: absolute;
+    contain: layout;
+    width: 46%;
+    left: 0%;
+    margin-left: 1%;
+    float: left;
+}
+
+.container-right {
+    position: absolute;
+    contain: layout;
+    width: 46%;
+    margin-right: 1%;
+    right: 0%;
+    float: right;
+}
+
+.mechanic-box-left img {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.mechanic-box-right img {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.subtitle {
+    font-size: 12px;
+    color: rgb(184, 184, 184);
+    margin-top: -2.5px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    line-height: 16px;
+    text-align: center;
 }
