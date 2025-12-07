@@ -22,6 +22,7 @@
     opacity: 80%;
     transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, opacity 0.15s ease-in-out;
     vertical-align: top;
+    cursor: pointer;
 }
 
 .dev-box img {

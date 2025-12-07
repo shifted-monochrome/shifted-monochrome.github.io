@@ -50,7 +50,7 @@
                 <hr class="mild-seperation">
                 <p>Lorem ipsum dolor sit amet i cant remember the rest of it</p>
             </div>
-            <div class="dev-box">
+            <div class="dev-box" id="gray_clicky">
                 <img src="../../images/dev-art/GrayIcon.png">
                 <h1>GrayscaleReal</h1>
                 <h2>Owner, Wiki Owner, Composer, Coder</h2>
@@ -62,3 +62,16 @@
         </div>
     </div>
 </body>
+
+<audio id="gray_sound" src="../../audio/dev-noises/gray_noise.mp3" preload="auto"></audio>
+
+<script>
+    const grayDiv = document.getElementById("gray_clicky");
+    const graySound = document.getElementById("gray_sound");
+
+    grayDiv.addEventListener("click", function() {
+        graySound.currentTime = 0.15;
+        graySound.volume = 0.75;
+        graySound.play();
+    })
+</script>
