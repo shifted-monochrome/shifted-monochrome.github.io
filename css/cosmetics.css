@@ -113,3 +113,11 @@ details .cosmetic-box {
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0) 90%);
     border-image: linear-gradient(to right, rgb(179, 179, 179), rgba(0, 0, 0, 0)) 1;
 }
+
+details > summary {
+    list-style-type: '▷ ';
+}
+
+details[open] > summary {
+    list-style-type: '▽ '
+}
