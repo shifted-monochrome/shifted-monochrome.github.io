@@ -114,6 +114,13 @@ details .cosmetic-box {
     border-image: linear-gradient(to right, rgb(179, 179, 179), rgba(0, 0, 0, 0)) 1;
 }
 
+.empty-details {
+    opacity: 25%;
+    text-decoration: line-through;
+    text-decoration-color: whitesmoke;
+    pointer-events: none;
+}
+
 details > summary {
     list-style-type: '▷ ';
 }
