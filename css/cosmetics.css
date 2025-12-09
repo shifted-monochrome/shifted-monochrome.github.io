@@ -1,0 +1,115 @@
+.cosmetic-container {
+    border: 5px solid rgb(95, 95, 95);
+    padding: 1%;
+    border-radius: 10px;
+    contain: layout;
+}
+
+.cosmetic-container hr {
+    border-color: rgb(76, 76, 76);
+}
+
+.special-tab {
+    border: none;
+    margin-bottom: 0px;
+    margin-left: 7.5px;
+}
+
+.special-tab button:hover {
+    border: 2px solid rgb(76, 76, 76);
+    background-color: rgb(76, 76, 76);
+}
+
+.special-tab button.active {
+    border: 2px solid rgb(95, 95, 95);
+    background-color: rgb(95, 95, 95);
+}
+
+.special-tab button {
+    border: 2px solid rgb(59, 59, 59);
+    background-color: rgb(59, 59, 59);
+}
+
+.cosmetic-box {
+    border: 2px dashed rgb(95, 95, 95);
+    border-left: 5px solid rgb(159, 159, 159);
+    border-radius: 10px;
+    padding: 0.5%;
+    margin: 0.5%;
+    contain: layout;
+}
+
+details .cosmetic-box {
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+.cosmetic-box img {
+    float: left;
+    padding-right: 75px;
+}
+
+.cosmetic-box h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.cosmetic-box h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -1.5em;
+    font-size: 14px;
+    color: rgb(198, 198, 198);
+    font-weight: lighter;
+}
+
+.cosmetic-box h4 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -1em;
+    font-size: 14px;
+    color: rgb(198, 198, 198);
+    font-weight: lighter;
+}
+
+.summary-header {
+    width: 98%;
+    font-size: 22px;
+    padding: 0.5%;
+    margin-bottom: 10px;
+
+    border-width: 3.5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-right: 0px solid transparent;
+    width: 40%;
+
+    text-align: left;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.redux-summary {
+    background-image: linear-gradient(to right, rgb(162, 0, 255), rgba(255, 255, 255, 0) 90%);
+    border-image: linear-gradient(to right, rgb(0, 255, 0), rgba(255, 255, 255, 0)) 1;
+}
+
+.brice-summary {
+    background-image: linear-gradient(to right, rgb(207, 23, 23), rgba(255, 255, 255, 0) 90%);
+    border-image: linear-gradient(to right, rgb(6, 27, 147), rgba(255, 255, 255, 0)) 1;
+}
+
+.furry-summary {
+    background-image: linear-gradient(to right, rgb(175, 175, 175), rgba(255, 255, 255, 0) 90%);
+    border-image: linear-gradient(to right, rgb(102, 102, 102), rgba(255, 255, 255, 0)) 1;
+}
+
+.gray-summary {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0) 90%);
+    border-image: linear-gradient(to right, rgb(179, 179, 179), rgba(0, 0, 0, 0)) 1;
+}

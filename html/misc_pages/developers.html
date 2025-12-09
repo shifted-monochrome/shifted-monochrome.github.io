@@ -32,15 +32,15 @@
                 <h2>Owner</h2>
                 <h3>She/They/It</h3>
                 <hr class="mild-seperation">
-                <p>I don't really know what should be put here tbh</p>
+                <p>"You would not believe your eyes, you would not believe your eyes!"</p>
             </div>
-            <div class="dev-box">
+            <div class="dev-box" id="brice_clicky">
                 <img src="../../images/dev-art/BriceIcon.png">
                 <h1>BriceTAS</h1>
                 <h2>Owner</h2>
                 <h3>He/Him</h3>
                 <hr class="mild-seperation">
-                <p>Lorem ipsum dolor sit amet i cant remember the rest of it</p>
+                <p>"I don't need the details, just tell me who to smash."</p>
             </div>
             <div class="dev-box">
                 <img src="../../images/dev-art/FurryIcon.png">
@@ -65,15 +65,18 @@
 
 <audio id="gray_sound" src="../../audio/dev-noises/gray_noise.mp3" preload="auto"></audio>
 <audio id="redux_sound" src="../../audio/dev-noises/redux_noise.wav" preload="auto"></audio>
+<audio id="brice_sound" src="../../audio/dev-noises/brice_noise.wav" preload="auto"></audio>
 
 <script>
     const grayDiv = document.getElementById("gray_clicky");
     const graySound = document.getElementById("gray_sound");
     const reduxDiv = document.getElementById("redux_clicky");
     const reduxSound = document.getElementById("redux_sound");
+    const briceDiv = document.getElementById("brice_clicky");
+    const briceSound = document.getElementById("brice_sound");
 
     grayDiv.addEventListener("click", function() {
-        graySound.currentTime = 0.15;
+        graySound.currentTime = 0.25;
         graySound.volume = 0.75;
         graySound.play();
     })
@@ -82,5 +85,11 @@
         reduxSound.currentTime = 0;
         reduxSound.volume = 0.75;
         reduxSound.play();
+    })
+
+    briceDiv.addEventListener("click", function() {
+        briceSound.currentTime = 0;
+        briceSound.volume = 0.75;
+        briceSound.play();
     })
 </script>

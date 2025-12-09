@@ -22,7 +22,7 @@
     opacity: 80%;
     transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, opacity 0.15s ease-in-out;
     vertical-align: top;
-    cursor: pointer;
+    cursor: grab;
 }
 
 .dev-box img {
@@ -37,6 +37,10 @@
     transform: scale(1.025) translateY(-15px);
     background-color: rgb(39, 39, 39);
     opacity: 100%;
+}
+
+.dev-box:active {
+    cursor: grabbing;
 }
 
 .dev-box h1 {

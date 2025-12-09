@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 
 <link rel="stylesheet" href="../../css/main.css">
-<link rel="stylesheet" href="../../css/mechanics.css">
+<link rel="stylesheet" href="../../css/cosmetics.css">
+
+<!--
+Cosmetic Template 
+ 
+<div class="cosmetic-box">
+    <img src="../../images/placeholder_image.png" style="width:256px;">
+    <h1>Name</h1>
+    <h3>Cost:</h3>
+    <hr>
+    <p>Description:</p>
+    <br>
+    <p>Origin:</p>
+    <h4>Set:</h4>
+</div>
+
+<div class="cosmetic-box">
+    <h1>Sorry :(</h1>
+    <p>This category has no cosmetics.</p>
+</div>
+-->
 
 <head>
     <title>Cosmetics || Shifted In Monochrome Wiki</title>
@@ -23,5 +43,676 @@
            <hr width="80%" style="color:whitesmoke;border: 1px solid whitesmoke;">
            <p style="font-size:14px"><b>Reason</b>: Missing information.</p>
         </div>
+
+        <div class="special-tab tab">
+            <button class="cat_links" onclick="changeCategory(event, 'shared_cosmetics')" id="default_category">Shared Cosmetics</button>
+            <button class="cat_links" onclick="changeCategory(event, 'unique_cosmetics')">Unique Cosmetics</button>
+            <button class="cat_links" onclick="changeCategory(event, 'plushie_packs')">Plushie-packs</button>
+            <button class="cat_links" onclick="changeCategory(event, 'dev_cosmetics')">Developer Cosmetics</button>
+        </div>
+        <div class="cosmetic-container">
+            <div class="cat_content" id="shared_cosmetics">
+                <div class="tab">
+                    <button class="shared_links" onclick="changeShared(event, 'sh_facial')" id="default_shared">Facial Cosmetics</button>
+                    <button class="shared_links" onclick="changeShared(event, 'sh_outfit')">Outfit Cosmetics</button>
+                    <button class="shared_links" onclick="changeShared(event, 'sh_weapons')">Weapon Cosmetics</button>
+                    <button class="shared_links" onclick="changeShared(event, 'sh_palettes')">Palette Swaps</button>
+                </div>
+                <!-- SHARED FACIAL COSMETICS -->
+                <div class="sh_cos_content" id="sh_facial">
+                    <div class="cosmetic-box">
+                        <h1>Sorry :(</h1>
+                        <p>This category has no cosmetics.</p>
+                    </div>
+                </div>
+                <!-- SHARED OUTFIT COSMETICS -->
+                <div class="sh_cos_content" id="sh_outfit">
+                    <div class="cosmetic-box">
+                        <h1>Sorry :(</h1>
+                        <p>This category has no cosmetics.</p>
+                    </div>
+                </div>
+                <!-- SHARED WEAPON COSMETICS -->
+                <div class="sh_cos_content" id="sh_weapons">
+                    <div class="cosmetic-box">
+                        <h1>Sorry :(</h1>
+                        <p>This category has no cosmetics.</p>
+                    </div>
+                </div>
+                <!-- SHARED PALETTE SWAPS -->
+                <div class="sh_cos_content" id="sh_palettes">
+                    <div class="cosmetic-box">
+                        <img src="../../images/placeholder_image.png" style="width:256px;">
+                        <h1>Crinkle Cut</h1>
+                        <h3>Cost: TBD</h3>
+                        <hr>
+                        <p>Description: "Now in purple!"</p>
+                        <br>
+                        <p>Origin: Broken Memories</p>
+                        <h4>Associated Characters: Gray, Inkblot</h4>
+                    </div>
+                </div>
+
+            </div>
+            <div class="cat_content" id="unique_cosmetics">
+                <div class="tab">
+                    <button class="unique_links" onclick="changeUnique(event, 'un_facial')" id="default_unique">Facial Cosmetics</button>
+                    <button class="unique_links" onclick="changeUnique(event, 'un_outfit')">Outfit Cosmetics</button>
+                    <button class="unique_links" onclick="changeUnique(event, 'un_weapons')">Weapon Cosmetics</button>
+                    <button class="unique_links" onclick="changeUnique(event, 'un_palettes')">Palette Swaps</button>
+                </div>
+                <!-- UNIQUE FACIAL COSMETICS -->
+                <div class="un_cos_content" id="un_facial">
+                    <div>
+                        <details>
+                            <summary class="summary-header redux-summary">Colored Rainbow</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Zalaza</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Colors</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Flaming Pin</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "For when you're feeling hot-headed."</p>
+                                <br>
+                                <p>Origin: BenBoi (Adventures of The Misfit Trio)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Redux</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Dankles</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Snow & Tempo</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Camilla</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Metal Dankles</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Silver Speed</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Nightshade</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Stitchfur</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Evil Twilight</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Gray</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Limitless Blindfold</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Never did control me."</p>
+                                <br>
+                                <p>Origin: Boundless A. Games (Sinister Minds)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Reaper Mask</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Where did you even get this skull?"</p>
+                                <br>
+                                <p>Origin: Broken Memories</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Specter</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Desolate Mask</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Glows with a hostile aura."</p>
+                                <br>
+                                <p>Origin: Shardfall</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Prismatic Mask</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Glows with a kind light."</p>
+                                <br>
+                                <p>Origin: Shardfall</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                             <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Sinister Mask</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "You world's shaking."</p>
+                                <br>
+                                <p>Origin: Majin (Sinister Minds)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Weaver Mask</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "i feel so shaw"</p>
+                                <br>
+                                <p>Origin: Hornet (Hollow Knight: Silksong)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Suvo</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Feral Mask</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Doesn't look nearly as friendly..."</p>
+                                <br>
+                                <p>Origin: N/A</p>
+                                <h4>Notes: Using the Feral Mask disables Suvo's voicelines</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Inkblot</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Ancient Skull</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Let them fear you."</p>
+                                <br>
+                                <p>Origin: N/A</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Shadow Rabbit's Visage</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "No avoiding them."</p>
+                                <br>
+                                <p>Origin: Shadow Bonnie (Five Nights at Freddy's 2)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- UNIQUE OUTFIT COSMETICS -->
+                <div class="un_cos_content" id="un_outfit">
+                    <div>
+                        <details>
+                            <summary class="summary-header redux-summary">Colored Rainbow</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Zalaza</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Colors</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Sibling Sweater</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Flame resistant! (Not really)."</p>
+                                <br>
+                                <p>Origin: BenBoi (Adventures of The Misfit Trio)</p>
+                                <h4>Set: Brotherly Bond</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Redux</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Dankles</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Snow & Tempo</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Camilla</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Metal Dankles</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Silver Speed</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Nightshade</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Stitchfur</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Evil Twilight</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Gray</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Limitless Mantle</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Their lord lies dead."</p>
+                                <br>
+                                <p>Origin: Boundless A. Games (Sinister Minds)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Reaper Cloak</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Note to self: Don't forget to fix up the right side."</p>
+                                <br>
+                                <p>Origin: Broken Memories</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Roommate's Cloak</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "And they were roommates..."</p>
+                                <br>
+                                <p>Origin: Shadow Bonnie (Five Nights at Freddy's 2)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Vessel's Clothing</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "*Protects you from the cold."</p>
+                                <br>
+                                <p>Origin: DELTARUNE</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Specter</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Desolate Cloak</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "It makes you feel powerful."</p>
+                                <br>
+                                <p>Origin: Shardfall</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Prismatic Cloak</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "It has a gentle warmth."</p>
+                                <br>
+                                <p>Origin: Shardfall</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Roommate's Hoodie</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Oh my god, they were roommates..."</p>
+                                <br>
+                                <p>Origin: Gray</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Sinister Cloak</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Run them down."</p>
+                                <br>
+                                <p>Origin: Majin (Sinister Minds)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Weaver Cloak</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "scale my mountain"</p>
+                                <br>
+                                <p>Origin: Hornet (Hollow Knight: Silksong)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Suvo</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Feral Outfit</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Can't mrrp mrrp meow your way out of this one."</p>
+                                <br>
+                                <p>Origin: N/A</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Inkblot</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Ancient Adornments</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Shiny!"</p>
+                                <br>
+                                <p>Origin: N/A</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Shadow Rabbit's Body</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "SAY MY NAME."</p>
+                                <br>
+                                <p>Origin: Shadow Bonnie (Five Nights at Freddy's 2)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+                <!-- UNIQUE WEAPON COSMETICS -->
+                <div class="un_cos_content" id="un_weapons">
+                    <div>
+                        <details>
+                            <summary class="summary-header redux-summary">Zalaza</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Dankles</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Camilla</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Metal Dankles</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Evil Twilight*</summary>
+                            <h3 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 14px;color: rgb(198, 198, 198);font-weight: lighter;margin-top:-0.5em;">*Ok so like technically these are horn accessories but they go in the weapon slot.</h3>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Gray</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Skullbound Scythe</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "No cats were harmed in the making of this scythe."</p>
+                                <br>
+                                <p>Origin: N/A</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Soul Scythe</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "*It beats with a pulse that isn't your own."</p>
+                                <br>
+                                <p>Origin: DELTARUNE</p>
+                                <h4>Notes: Using <b>Sow</b> with the Soul Scythe has an attack similar to "Red Buster" from DELTARUNE, rather than the typical ink-based slash. The Soul Scythe also has a red trail instead of a black one.</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Specter</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Scissor Blades</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "robot yaoi my beloved"</p>
+                                <br>
+                                <p>Origin: Second Sentinel (Hollow Knight: Silksong)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Suvo</summary>
+                        </details>
+                    </div>
+                </div>
+                <!-- UNIQUE PALETTE SWAPS -->
+                <div class="un_cos_content" id="un_palettes">
+                    <div>
+                        <details>
+                            <summary class="summary-header redux-summary">Colored Rainbow</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Faithful Student</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "If Friendships ultimately fade, why even make them in the first place?"</p>
+                                <br>
+                                <p>Origin: Luster Dawn (My Little Pony)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Rarity</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Oh the Society, The Culture, The Glamour!"</p>
+                                <br>
+                                <p>Origin: Rarity (My Little Pony)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Zalaza</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Colors</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Boi</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Brotherly Bond."</p>
+                                <br>
+                                <p>Origin: BenBoi (Adventures of The Misfit Trio)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Verdarin</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Just a reverse color scheme."</p>
+                                <br>
+                                <p>Origin: N/A</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header redux-summary">Redux</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Dankles</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Snow & Tempo</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Camilla</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header brice-summary">Metal Dankles</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Silver Speed</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Nightshade</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Stitchfur</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header furry-summary">Evil Twilight</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Gray</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Vessel Palette</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "*Your lack of control leaves you pale."</p>
+                                <br>
+                                <p>Origin: DELTARUNE</p>
+                                <h4>Notes: Using the Vessel Palette disables Gray's voicelines. It also replaces the sound effect when using <b>Mend</b> with the healing noise from DELTARUNE.</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Specter</summary>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Suvo</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>Feral Palette</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "Mind the claws."</p>
+                                <br>
+                                <p>Origin: N/A</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                        </details>
+                        <details>
+                            <summary class="summary-header gray-summary">Inkblot</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../images/placeholder_image.png" style="width:256px;">
+                                <h1>FRIEND</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "friend inside me."</p>
+                                <br>
+                                <p>Origin: DELTARUNE</p>
+                                <h4>Notes: Using the FRIEND palette replaces the sound effect when downing or killing a victim with <code>IMAGE_FRIEND</code>'s laugh from DELTARUNE.</h4>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+            <div class="cat_content" id="plushie_packs">
+                <p style="text-align:center;text-decoration:underline;text-decoration-color:rgb(135, 135, 135);">Note: Plushie-packs can be worn by any Experiment or Eradicator. In this case, "Associated Character" just refers to the character the Plushie-pack is based on.</p>
+                <div class="cosmetic-box">
+                    <img src="../../images/placeholder_image.png" style="width:256px;">
+                    <h1>Gray Plushie-pack</h1>
+                    <h3>Cost: TBD</h3>
+                    <hr>
+                    <p>Description: "What a polite lad."</p>
+                    <br>
+                    <p>Origin: N/A</p>
+                    <h4>Associated Character: Gray</h4>
+                </div>
+                <div class="cosmetic-box">
+                    <img src="../../images/placeholder_image.png" style="width:256px;">
+                    <h1>Splotch Plushie-pack</h1>
+                    <h3>Cost: TBD</h3>
+                    <hr>
+                    <p>Description: "Awww the scrunkly 🥰🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺🥺 Double Tap Now if You'd Scrunkly the When 😆"</p>
+                    <br>
+                    <p>Origin: N/A</p>
+                    <h4>Associated Character: Inkblot</h4>
+                </div>
+            </div>
+            <div class="cat_content" id="dev_cosmetics">
+                <div class="cosmetic-box">
+                    <img src="../../images/placeholder_image.png" style="width:256px;">
+                    <h1>Shifted Plushie-pack</h1>
+                    <h3>Type: Plushie-Pack</h3>
+                    <hr>
+                    <p>Description: "So cool."</p>
+                    <br>
+                    <p>Origin: N/A</p>
+                    <h4>Associated Character: N/A</h4>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
+<script>
+    function changeCategory(evt, catName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("cat_content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("cat_links");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(catName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    function changeShared(evt, cosmeticName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("sh_cos_content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("shared_links");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(cosmeticName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    function changeUnique(evt, cosmeticName) {
+        var i, tabcontent, tablinks;
+
+        tabcontent = document.getElementsByClassName("un_cos_content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        tablinks = document.getElementsByClassName("unique_links");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        document.getElementById(cosmeticName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    document.getElementById("default_category").click();
+    document.getElementById("default_shared").click();
+    document.getElementById("default_unique").click();
+</script>
