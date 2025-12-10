@@ -102,3 +102,11 @@ ul li p {
     line-height: 16px;
     text-align: center;
 }
+
+.gay {
+    display: none;
+}
+
+.closet:hover .gay {
+    display: block;
+}
