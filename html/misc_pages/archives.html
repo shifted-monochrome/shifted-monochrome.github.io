@@ -31,23 +31,37 @@
     <h1 class="section-header">Reference Sheets</h1>
     <hr class="seperator">
     <div class="concept-containers">
-        <p id="TESTING_THING">text text text</p>
         <div class="concept-art">
-            <a href="../../the-archives/images/references/ref_gray.png" target="_blank" id="gray_link">
+            <a href="../../the-archives/images/references/ref_gray.png" target="_blank">
                 <abbr title="The first (and arguably best) of the Inkblot references.">
-                    <img src="../../the-archives/images/references/ref_gray.png" id="gray_ref">
+                    <img src="../../the-archives/images/references/ref_gray.png">
                 </abbr>
             </a>
             <p class="subtitle">Gray's reference sheet. <br> Art by GrayscaleReal</p>
-            <button class="unclothe" id="gray_button">Swap</button>
         </div>
         <div class="concept-art">
             <a href="../../the-archives/images/references/ref_specter.png" target="_blank">
                 <abbr title="This reference is kinda just... okay. I could've done better.">
-                    <img src="../../the-archives/images/references/ref_specter.png" id="specter_ref">
+                    <img src="../../the-archives/images/references/ref_specter.png">
                 </abbr>
             </a>
             <p class="subtitle">Specter's reference sheet. <br> Art by GrayscaleReal</p>
+        </div>
+        <div class="concept-art">
+            <a href="../../the-archives/images/references/ref_suvo.png" target="_blank">
+                <abbr title="This reference sheet was super quickly made for Art Fight 2025.">
+                    <img src="../../the-archives/images/references/ref_suvo.png">
+                </abbr>
+            </a>
+            <p class="subtitle">Suvo's reference sheet. <br> Art by GrayscaleReal</p>
+        </div>
+        <div class="concept-art">
+            <a href="../../the-archives/images/references/ref_inkblot.png" target="_blank">
+                <abbr title="Not the best but not the worst. I like how this one turned out.">
+                    <img src="../../the-archives/images/references/ref_inkblot.png">
+                </abbr>
+            </a>
+            <p class="subtitle">Suvo's reference sheet. <br> Art by GrayscaleReal</p>
         </div>
     </div>
 
@@ -111,32 +125,3 @@
         </div>
     </div>
 </body>
-
-<script>
-    document.getElementById('TESTING_THING').textContent = document.getElementById('gray_ref').src;
-    if (document.getElementById('gray_ref').src == '../../the-archives/images/references/ref_gray.png') {
-        document.getElementById('TESTING_THING').color = "rgb(0, 255, 0)";
-    }
-    
-    const gray_button = document.getElementById('gray_button')
-    gray_button.addEventListener('click', function() {
-        swapRef(event, 
-            'gray_ref', 
-            'gray_link', 
-            '../../the-archives/images/references/ref_gray.png', 
-            '../../the-archives/images/references/ref_naked-gray.png'
-        )
-    })
-
-    function swapRef(evt, refOwner, linkOwner, old_link, new_link) {
-        if (document.getElementById(refOwner).src == old_link) {
-            document.getElementById(refOwner).src = new_link;
-            document.getElementById(linkOwner).href = new_link;
-        } else if (document.getElementById(refOwner).src == new_link) {
-            document.getElementById(refOwner).src = old_link;
-            document.getElementById(linkOwner).href = old_link;
-        }
-
-        document.getElementById('TESTING_THING').textContent = document.getElementById(refOwner).src + ' | ' + document.getElementById(refOwner).id;
-    }
-</script>
