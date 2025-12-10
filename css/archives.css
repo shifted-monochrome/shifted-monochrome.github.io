@@ -1,0 +1,59 @@
+h1:not(#warning) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    font-size:40px;
+    padding-left:1%
+}
+
+.subtitle {
+    font-size: 12px;
+    color: rgb(184, 184, 184);
+    margin-top: -2.5px;
+    margin-bottom: 5px;
+    position: fixed;
+    width: 100%;
+    bottom: -10px;
+    line-height: 16px;
+    text-align: center;
+    align-self: bottom;
+}
+
+.concept-art {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    contain: layout;
+    text-align: center;
+    vertical-align: top;
+    align-content: center;
+}
+
+.concept-art img {
+    height: 83%;
+    transition: transform 0.15s ease-in-out, padding-bottom 0.15s ease-in-out;
+}
+
+.concept-art img:hover {
+    position: relative;
+    left: 0%;
+    transform: scale(1.025);
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+.separator {
+    margin-left: 0;
+    margin-bottom: 20px;
+    border-color: rgb(76, 76, 76);
+}
+
+.concept-containers {
+    width: 99%;
+    margin: 0px auto;
+    border: 2.5px dashed rgb(95, 95, 95);
+    border-radius: 10px;
+    contain: layout;
+    padding-bottom: 15px;
+}
