@@ -36,7 +36,7 @@ Cosmetic Template
         <div class="warning">
            <h1>WARNING: UNFINISHED PAGE</h1>
            <hr width="80%" style="color:whitesmoke;border: 1px solid whitesmoke;">
-           <p style="font-size:14px"><b>Reason</b>: Missing information.</p>
+           <p style="font-size:14px"><b>Reason</b>: Missing images. Names are also subject to change.</p>
         </div>
 
         <div class="special-tab tab">
@@ -48,16 +48,26 @@ Cosmetic Template
         <div class="cosmetic-container">
             <div class="cat_content" id="shared_cosmetics">
                 <div class="tab">
-                    <button class="shared_links empty-details" onclick="changeShared(event, 'sh_facial')">Facial Cosmetics</button>
-                    <button class="shared_links empty-details" onclick="changeShared(event, 'sh_outfit')">Outfit Cosmetics</button>
+                    <button class="shared_links empty-details" onclick="changeShared(event, 'sh_facial')">Head Cosmetics</button>
+                    <button class="shared_links" onclick="changeShared(event, 'sh_outfit')" id="default_shared">Outfit Cosmetics</button>
                     <button class="shared_links empty-details" onclick="changeShared(event, 'sh_weapons')">Weapon Cosmetics</button>
-                    <button class="shared_links" onclick="changeShared(event, 'sh_palettes')" id="default_shared">Palette Swaps</button>
+                    <button class="shared_links" onclick="changeShared(event, 'sh_palettes')">Palette Swaps</button>
                 </div>
-                <!-- SHARED FACIAL COSMETICS -->
+                <!-- SHARED HEAD COSMETICS -->
                 <div class="sh_cos_content" id="sh_facial">
                 </div>
                 <!-- SHARED OUTFIT COSMETICS -->
                 <div class="sh_cos_content" id="sh_outfit">
+                    <div class="cosmetic-box">
+                        <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                        <h1>Aura Farmer</h1>
+                        <h3>Cost: TBD</h3>
+                        <hr>
+                        <p>Description: "TBD"</p>
+                        <br>
+                        <p>Origin: Piccolo (Dragon Ball Z)</p>
+                        <h4>Associated Characters: Dankles, Metal Dankles</h4>
+                    </div>
                 </div>
                 <!-- SHARED WEAPON COSMETICS -->
                 <div class="sh_cos_content" id="sh_weapons">
@@ -79,12 +89,12 @@ Cosmetic Template
             </div>
             <div class="cat_content" id="unique_cosmetics">
                 <div class="tab">
-                    <button class="unique_links" onclick="changeUnique(event, 'un_facial')" id="default_unique">Facial Cosmetics</button>
+                    <button class="unique_links" onclick="changeUnique(event, 'un_facial')" id="default_unique">Head Cosmetics</button>
                     <button class="unique_links" onclick="changeUnique(event, 'un_outfit')">Outfit Cosmetics</button>
                     <button class="unique_links" onclick="changeUnique(event, 'un_weapons')">Weapon Cosmetics</button>
                     <button class="unique_links" onclick="changeUnique(event, 'un_palettes')">Palette Swaps</button>
                 </div>
-                <!-- UNIQUE FACIAL COSMETICS -->
+                <!-- UNIQUE HEAD COSMETICS -->
                 <div class="un_cos_content" id="un_facial">
                     <div>
                         <details class="empty-details">
@@ -278,14 +288,74 @@ Cosmetic Template
                         <details class="empty-details">
                             <summary class="summary-header brice-summary">Dankles</summary>
                         </details>
-                        <details class="empty-details">
+                        <details>
                             <summary class="summary-header brice-summary">Snow</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>808</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: 808 (Hi-Fi Rush)</p>
+                                <h4>Notes: Using this cosmetic changes Snow's model.</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>Star Performer</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: Hatsune Miku (Vocaloid)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
                         </details>
-                        <details class="empty-details">
+                        <details>
                             <summary class="summary-header brice-summary">Tempo</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>Peppermint</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: Peppermint (Hi-Fi Rush)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>Teto</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: Kasane Teto (UTAU)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
                         </details>
-                        <details class="empty-details">
+                        <details>
                             <summary class="summary-header brice-summary">Camilla</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>A Mother's Love</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: Ceroba Ketsukane (Undertale Yellow)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>Birdbrain</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: Kasane Teto (Birdbrain)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
                         </details>
                         <details class="empty-details">
                             <summary class="summary-header brice-summary">Metal Dankles</summary>
@@ -331,7 +401,7 @@ Cosmetic Template
                                 <hr>
                                 <p>Description: "And they were roommates..."</p>
                                 <br>
-                                <p>Origin: Shadow Bonnie (Five Nights at Freddy's 2)</p>
+                                <p>Origin: Specter</p>
                                 <h4>Notes: N/A</h4>
                             </div>
                             <div class="cosmetic-box">
@@ -455,8 +525,18 @@ Cosmetic Template
                         <details class="empty-details">
                             <summary class="summary-header brice-summary">Dankles</summary>
                         </details>
-                        <details class="empty-details">
+                        <details>
                             <summary class="summary-header brice-summary">Camilla</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>Teto</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: Kasane Teto (UTAU)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
                         </details>
                         <details class="empty-details">
                             <summary class="summary-header brice-summary">Metal Dankles</summary>
@@ -564,14 +644,44 @@ Cosmetic Template
                         <details class="empty-details">
                             <summary class="summary-header brice-summary">Dankles</summary>
                         </details>
-                        <details class="empty-details">
+                        <details>
                             <summary class="summary-header brice-summary">Snow</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>808</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: 808 (Hi-Fi Rush)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
                         </details>
                         <details class="empty-details">
                             <summary class="summary-header brice-summary">Tempo</summary>
                         </details>
-                        <details class="empty-details">
+                        <details>
                             <summary class="summary-header brice-summary">Camilla</summary>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>A Mother's Love</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: Ceroba (Undertale Yellow)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
+                            <div class="cosmetic-box">
+                                <img src="../../the-archives/images/placeholder_image.png" style="width:256px;">
+                                <h1>Birdbrain</h1>
+                                <h3>Cost: TBD</h3>
+                                <hr>
+                                <p>Description: "TBD"</p>
+                                <br>
+                                <p>Origin: Kasane Teto (UTAU)</p>
+                                <h4>Notes: N/A</h4>
+                            </div>
                         </details>
                         <details class="empty-details">
                             <summary class="summary-header brice-summary">Metal Dankles</summary>

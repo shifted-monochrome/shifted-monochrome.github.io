@@ -43,6 +43,7 @@
 .concept-art img {
     height: 83%;
     transition: transform 0.15s ease-in-out, padding-bottom 0.15s ease-in-out;
+    padding: 1px;
 }
 
 .concept-art img:hover {
@@ -50,7 +51,6 @@
     left: 0%;
     transform: scale(1.025);
     cursor: pointer;
-    padding-bottom: 3px;
 }
 
 .separator {
@@ -66,4 +66,8 @@
     border-radius: 10px;
     contain: layout;
     padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
 }
