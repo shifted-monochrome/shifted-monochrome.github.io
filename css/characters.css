@@ -138,7 +138,4 @@ td audio {width: 100%; margin: 5px;}
 td:has(audio) {width: 20%;}
 th {background-color: rgb(95, 95, 95); padding: 15px;}
 
-.asterisk {
-    font-style: oblique;
-    color: rgb(158, 158, 158);
-}
+.asterisk {font-style: oblique; color: rgb(158, 158, 158);}

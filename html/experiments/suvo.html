@@ -135,7 +135,7 @@
                         <p><b>Keybind</b>: E
                         <br><b>Cooldown</b>: 3s</p>
                         <hr style="margin-right:1%">
-                        <p>Suvo shifts between their normal height and 25% of their initial height. While small, Suvo moves slower and takes more knockback, but can fit through smaller gaps that other Experiments or Eradicators might not be able to get through.</p>
+                        <p>Suvo shifts between their normal height and 25% of their initial height. While small, Suvo takes more knockback, but can fit through smaller gaps that other Experiments or Eradicators might not be able to get through.</p>
                     </div>
                 </div>
                 <div class="ability-box" id="second_ability">
@@ -202,6 +202,63 @@
                 </ul>
                 <li>Suvo takes damage from Manipulated Metal due to having quite a few paperclips, binder clips, and staplers stashed inside of them.</li>
             </ul>
+
+            <details>
+            <summary>Voicelines <hr style="margin-left:0;border-color:rgb(76, 76, 76)"></summary>
+                <table>
+                    <tr>
+                        <th>Event</th>
+                        <th>Transcript</th>
+                        <th>Audio</th>
+                    </tr>
+
+                    <tr>
+                        <td>Using <b>Perfectly Portioned</b> on themselves.</td>
+                        <td>Eating noises.</td>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+                    <tr>
+                        <td>25% chance when hitting an Eradicator with <b>Marksman</b>.</td>
+                        <td>Happy noise.</td>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+
+                    <tr>
+                        <td>Perching on Specter or Gray.</td>
+                        <td>Purring.</td>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+                    <tr>
+                        <td>Getting caught in Colors' <b>Wind Manipulation</b>.</td>
+                        <td>Panicked noise.</td>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+                    <tr>
+                        <td>Being thrown by Specter's <b>Spectral Dash</b>.</td>
+                        <td>Pained yelp.</td>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+                    <tr>
+                        <td>Hurt by Stitchfur's <b>Wild Charge</b>.</td>
+                        <td>Pained yelp.</noise>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+                    <tr>
+                        <td>Hurt by Colors' <b>Metal Manipulation</b>.</td>
+                        <td>Pained yelp mixed with the sound of paperclips clinking together.</td>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">25% chance when encountering Colors after being injured by <b>Metal Manipulation</b>.</td>
+                        <td>Fearful noise.</td>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+                    <tr>
+                        <td class="asterisk">Hissing.</td>
+                        <td><audio controls><source src="../../the-archives/audio/placeholder-voiceline.wav">Unable to play file.</audio></td>
+                    </tr>
+                </table>
+            </details>
 
             <h2>Gallery</h2>
             <hr style="margin-left:0;margin-top:-0.5%;border-color:rgb(76, 76, 76)">
@@ -295,3 +352,10 @@
     document.getElementById("default_gallery").click();
     document.getElementById("default_ability").click();
 </script>
+
+<style>
+    td:not(:first-child) {
+        font-style: oblique;
+        color: rgb(158, 158, 158);
+    }
+</style>
