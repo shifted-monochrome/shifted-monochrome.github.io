@@ -1,16 +1,23 @@
 /* Paragraph Classes and stuff*/
 .main-header {
     font-size: 18px;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
+    width: 100%;
+    left: 0px;
     position: fixed;
     margin-top: -75px;
-    background-color: rgb(24, 24, 24);
     z-index: 50;
+    backdrop-filter: contrast(300%) saturate(2000%) blur(16px);
+
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom, rgba(24, 24, 24, 100%) 5%, rgba(24, 24, 24, 0.25) 100%);
+}
+.main-header p {
+    padding-left: 0.5%;
 }
 
 .content {
-    margin-top: 75px
+    margin-top: 75px;
 }
 
 /* Div Classes */
